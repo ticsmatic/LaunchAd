@@ -1,7 +1,9 @@
 ### LaunchAd
 开屏广告的实现，代码没有过多的封装，所以代码量相对来说不多，可以学学里面的思路，拿来就能用
-![](http://ojwxme684.bkt.clouddn.com/18_56_48.gif) 
-![image](https://github.com/CoderZhuXH/XHLaunchAd/blob/master/ScreenShot/ScreenShot00.gif) ![image](https://github.com/CoderZhuXH/XHLaunchAd/blob/master/ScreenShot/ScreenShot01.gif) ![image](https://github.com/CoderZhuXH/XHLaunchAd/blob/master/ScreenShot/ScreenShot02.gif)
+![image](http://ojwxme684.bkt.clouddn.com/18_56_48.gif) 
+
+
+
 ### 主要思路：
 * 1.使用LaunchImage的方式做启动图
 
