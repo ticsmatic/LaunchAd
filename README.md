@@ -1,6 +1,6 @@
 ### LaunchAd
 开屏广告的实现，代码没有过多的封装，所以代码量相对来说不多，可以学学里面的思路，拿来就能用
-![image](https://github.com/west-east/ReadMeImage/blob/master/2017-07-17%2018_56_48.gif) 
+![image](https://github.com/west-east/ReadMeImage/blob/master/2017-07-17%2021_41_23.gif) 
 
 
 
