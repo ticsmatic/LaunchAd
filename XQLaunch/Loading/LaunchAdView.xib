@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFill" id="IB3-T8-hLs" customClass="LaunchAdView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="icc-7D-p47">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hyk-76-h7n">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Yd-1Z-hPE">
+                    <rect key="frame" x="320" y="25" width="40" height="25"/>
+                    <color key="backgroundColor" red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="2MS-jB-VT1"/>
+                        <constraint firstAttribute="width" constant="40" id="QBV-IM-VZM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="跳过">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="icc-7D-p47" secondAttribute="bottom" id="1hX-wC-9v8"/>
+                <constraint firstItem="4Yd-1Z-hPE" firstAttribute="top" secondItem="IB3-T8-hLs" secondAttribute="top" constant="25" id="2Lr-Ql-PFQ"/>
+                <constraint firstItem="Hyk-76-h7n" firstAttribute="leading" secondItem="IB3-T8-hLs" secondAttribute="leading" id="8Ih-6a-GwS"/>
+                <constraint firstAttribute="trailing" secondItem="Hyk-76-h7n" secondAttribute="trailing" id="GAt-5W-wM4"/>
+                <constraint firstItem="icc-7D-p47" firstAttribute="leading" secondItem="IB3-T8-hLs" secondAttribute="leading" id="N1x-h4-FeG"/>
+                <constraint firstAttribute="bottom" secondItem="Hyk-76-h7n" secondAttribute="bottom" constant="100" id="NSM-a8-96U"/>
+                <constraint firstItem="Hyk-76-h7n" firstAttribute="top" secondItem="IB3-T8-hLs" secondAttribute="top" id="QCC-XC-uig"/>
+                <constraint firstAttribute="trailing" secondItem="icc-7D-p47" secondAttribute="trailing" id="aSn-h4-sDG"/>
+                <constraint firstAttribute="trailing" secondItem="4Yd-1Z-hPE" secondAttribute="trailing" constant="15" id="h13-6t-Qjv"/>
+                <constraint firstItem="icc-7D-p47" firstAttribute="top" secondItem="IB3-T8-hLs" secondAttribute="top" id="srd-3M-vbx"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="adImageView" destination="Hyk-76-h7n" id="bSM-wP-2Za"/>
+                <outlet property="bottomIcon" destination="icc-7D-p47" id="9qt-pf-2N8"/>
+                <outlet property="skipButton" destination="4Yd-1Z-hPE" id="2is-2d-AaA"/>
+            </connections>
+            <point key="canvasLocation" x="337.5" y="-571.5"/>
+        </view>
+    </objects>
+</document>

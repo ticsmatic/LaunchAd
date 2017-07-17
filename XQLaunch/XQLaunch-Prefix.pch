@@ -1,0 +1,17 @@
+//
+//  XQLaunch-Prefix.pch
+//  XQLaunch
+//
+//  Created by Ticsmatic on 2017/7/17.
+//  Copyright © 2017年 Ticsmatic. All rights reserved.
+//
+
+#ifndef XQLaunch_Prefix_pch
+#define XQLaunch_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Masonry.h"
+#import "YYWebImage.h"
+#import "YYModel.h"
+#endif /* XQLaunch_Prefix_pch */

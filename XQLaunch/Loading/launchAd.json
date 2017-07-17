@@ -1,0 +1,15 @@
+{
+    "success": true,
+    "message": "",
+    "code": "100100",
+    "data": [
+             {
+             "thumbnail": "http://yicai-teaworld-prod.b0.upaiyun.com/tw/cms/2017/5/dedfc1c89fb55a86388cf9edad13b317.jpg",
+             "url": "http://ww.baidu.com",
+             "shortTitle": "花少钱，喝好茶！",
+             "longTitle": "花少钱，喝好茶！",
+             "sort": 1,
+             "openModeEnum": "INTERNAL"
+             }
+             ]
+}
